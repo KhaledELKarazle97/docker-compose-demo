@@ -2,9 +2,9 @@ name: nodejs pipeline
  
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
  
 env:
   REGISTRY: ghcr.io
